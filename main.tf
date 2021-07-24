@@ -9,6 +9,12 @@ terraform {
       version = "~>3.0"
     }
   }
+  backend "s3" {
+    bucket  = "tastylog-tfstate-bucket-yy2021"
+    key     = "tastylog-dev.tfstate"
+    region  = "ap-northeast-1"
+    profile = "terraform"
+  }
 }
 
 # -----------------------------
