@@ -40,4 +40,7 @@ terraform.rc
 # 20210711_added
 .terraform.lock.hcl
 
+# 20210724_added
+*keypair*
+
 # End of https://www.toptal.com/developers/gitignore/api/terraform

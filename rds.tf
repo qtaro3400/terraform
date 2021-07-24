@@ -54,7 +54,7 @@ resource "random_string" "db_password" {
 }
 
 resource "aws_db_instance" "mysql_standalone" {
-  engine        = "mysql"
+  engine         = "mysql"
   engine_version = "8.0.20"
 
   identifier = "${var.project}-${var.environment}-mysql-standalone"
