@@ -44,6 +44,6 @@ terraform.rc
 *keypair*
 
 # 20210801_added
-src
+src*
 
 # End of https://www.toptal.com/developers/gitignore/api/terraform
